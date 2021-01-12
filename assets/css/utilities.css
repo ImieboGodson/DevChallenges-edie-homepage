@@ -1,17 +1,72 @@
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 .grid {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
 }
 
-.flex {
+/* .flex {
     display: flex;
-    justify-content: center;
     align-items: center;
+} */
+
+/* Cards */
+.card {
+    transition: 0.5s;
 }
+
+.card:hover{
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+/* Call To Action */
+.call-to-action label {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 21px;
+    color: #828282;
+}
+
+.input-div {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+
+.input-div input[type='email'],
+.input-div input[type='button'] {
+    border: none;
+    border-radius: 12px;
+}
+
+.input-div input[type='email']:focus,
+.input-div input[type='button']:focus {
+    outline: none;
+}
+
+.input-div input[type='email'] {
+    width: 70%;
+    padding: 16px;
+    color: #BDBDBD;
+    background: #F2F2F2;
+}
+
+.input-div input[type='button'] {
+    width: 30%;
+    margin: 1px 0;
+    color: #F2F2F2;
+    background: #2D9CDB;
+    
+}
+
 
 /* Paddings */
 
