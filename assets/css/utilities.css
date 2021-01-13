@@ -3,20 +3,12 @@
     margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-}
-
-/* .flex {
-    display: flex;
-    align-items: center;
-} */
 
 /* Cards */
 .card {
-    transition: 0.5s;
+    width: 341px;
+    height: 422px;
+    transition: 0.5s ease-in-out;
 }
 
 .card:hover{
@@ -36,7 +28,9 @@
 .input-div {
     width: 100%;
     margin: 5px 0;
+    padding: 4px;
     display: flex;
+    justify-content: space-between;
     background: #F2F2F2;
     border-radius: 12px;
 }
@@ -60,8 +54,12 @@
 }
 
 .input-div input[type='button'] {
-    width: 30%;
-    margin: 1px 0;
+    width: 27%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
     color: #F2F2F2;
     background: #2D9CDB;
     
