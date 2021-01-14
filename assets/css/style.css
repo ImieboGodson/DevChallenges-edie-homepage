@@ -19,15 +19,15 @@ body {
 .logo {
     font-family: 'Heebo';
     font-weight: 800;
-    font-size: 30px;
+    font-size: 2.2rem;
     line-height: 53px;
     color: #333333;
 }
 
 .navlink-toggler {
-    /* display: none; */
+    display: none;
     position: absolute;
-    right: 24px;
+    right: 20px;
 }
 
 .navlink-toggler .fa-bars {
@@ -91,6 +91,10 @@ body {
     font-size: 2.7rem;
     line-height: 72px;
     color: #333333;
+}
+
+.hero-img-wrapper {
+    margin: 50px 0;
 }
 
 .hero-img-wrapper, .hero-img-wrapper img {

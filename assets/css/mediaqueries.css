@@ -2,6 +2,12 @@
     .navlinks {
         display: none;
     }
+
+    .navlink-toggler {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -46,13 +52,12 @@
     }
 
     .hero-img-wrapper {
+        margin: 5px 0;
         width: 100%;
-        height: 130px;
     }
 
     .hero-img-wrapper img {
         width: 100%;
-        height: 100%;
     }
 
     /* Services */
@@ -139,6 +144,10 @@
     }
 
     /* Footer */
+    #footer {
+        margin-top: 40px;
+    }
+
     .footer-links {
         margin-bottom: 100px;
         flex-direction: column;
@@ -146,6 +155,11 @@
 
     .social-media-links {
         padding: 50px 0;
+    }
+
+    .social-media-links .logo {
+        font-size: 2.2rem;
+        line-height: 53px;
     }
 
     .footer-wrapper .call-to-action {
