@@ -1,0 +1,154 @@
+@media (max-width: 900px) {
+    .navlinks {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        font-size: 1.2rem;
+        line-height: 35px;
+    }
+
+    .fa-bars {
+        font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+        padding-top: 50px;
+    }
+
+    .before-img, 
+    .after-img,
+    .service-header-text,
+    .ourWorks-header-text {
+        margin-left: 25px;
+    }
+
+    .before-img, .after-img {
+        width: 88%;
+    }
+
+    .after-img h1 {
+        width: 70%;
+    }
+
+    .before-img p, .after-img p {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+
+    .before-img h1, .after-img h1 {
+        padding: 10px 0;
+        font-size: 1.5rem;
+        line-height: 36px;
+    }
+
+    .hero-img-wrapper {
+        width: 100%;
+        height: 130px;
+    }
+
+    .hero-img-wrapper img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Services */
+    .service-header-text {
+        width: 80%;
+    }
+
+    .service-header-text h2,
+    .ourWorks-header-text h2 {
+        font-size: 1.5rem;
+        line-height: 36px;
+    }
+
+    .service-categories {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* Works */
+    .ourWorks-header-text {
+        width: 80%;
+    }
+
+    .ourWorks-header-text h2 {
+        padding-bottom: 50px;
+    }
+
+    .project-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .left-col {
+        padding: 0;
+    }
+
+    .project-wrapper .light-subtext {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+    
+    .project-wrapper .project-name {
+        font-size: 1.1rem;
+        line-height: 27px;
+        color: #333333;
+    }
+
+    .link-to-project {
+        bottom: -80px;
+        left: 0;
+        font-size: 1.1rem;
+        line-height: 27px;
+    }
+
+    /* The Team */
+    #ourTeam {
+        margin: 150px 0 50px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .ourTeam-text-wrapper .top-text,
+    .ourTeam-text-wrapper h2,
+    .ourTeam-text-wrapper .bottom-text {
+        width: 90%;
+    }
+
+    .ourTeam-gallery-wrapper {
+        gap: 10px;
+    }
+
+    /* Testimonials */
+    .testimonial {
+        width: 100%;
+    }
+
+    .testimonial .quoted-text {
+        font-size: 1.3rem;
+        line-height: 36px;
+    }
+
+    .customer-img-wrapper {
+        margin-right: 20px;
+    }
+
+    /* Footer */
+    .footer-links {
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .social-media-links {
+        padding: 50px 0;
+    }
+
+    .footer-wrapper .call-to-action {
+        width: 100%;
+    }
+}
