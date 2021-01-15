@@ -8,6 +8,7 @@
 .card {
     width: 341px;
     height: 422px;
+    padding: 32px;
     transition: 0.5s ease-in-out;
 }
 

@@ -1,15 +1,96 @@
-@media (max-width: 900px) {
-    .navlinks {
-        display: none;
+/* Tablet and Large Screens */
+@media (max-width: 1100px) {
+    /* Hero */
+    .before-img {
+        width: 50%;
     }
 
-    .navlink-toggler {
-        display: inline-block;
-        position: absolute;
-        right: 20px;
+    .after-img {
+        width: 40%;
+    }
+
+    /* Services */
+    .service-header-text,
+    .ourWorks-header-text {
+        width: 40%;
+    }
+
+    /* Cards */
+    .card {
+        width: 300px;
+        height: 420px;
     }
 }
 
+@media (max-width: 900px) {
+    .navlinks-wrapper {
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 4;
+        
+    }
+
+    .navlinks {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navlinks li {
+        margin: 10px;
+        padding: 16px;
+        list-style: none;
+    }
+
+    .navlink-toggler-open, .hide{
+        display: inline-block;
+    }
+
+    .navlinks-wrapper {
+        display: none;
+    }
+
+    .navlinks-wrapper.active {
+        display: flex;
+    }
+
+    /* Hero */
+    .before-img, 
+    .after-img,
+    .service-header-text,
+    .ourWorks-header-text {
+        margin-left: 45px;
+    }
+
+    .before-img {
+        width: 70%;
+    }
+
+    .after-img {
+        width: 50%;
+    }
+
+    /* Services */
+    .card {
+        width: 230px;
+        height: 450px;
+        padding: 10px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .service-header-text,
+    .ourWorks-header-text {
+        width: 50%;
+    }
+}
+
+
+/* Mobile phone Screens */
 @media (max-width: 500px) {
     .logo {
         font-size: 1.2rem;
@@ -74,6 +155,11 @@
     .service-categories {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+        padding: 26px;
     }
 
     /* Works */
